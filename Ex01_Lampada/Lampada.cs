@@ -43,6 +43,11 @@ namespace Ex01_Lampada
                 Console.WriteLine($"Ocorreu umm erro insperado: {ex.Message}");
             }
         }
+
+        public override string ToString()
+        {
+            return $"Marca: {marca}, Tecnologia: {tecnologia}, Estado: {(estado ? "Ligada" : "Desligada")}, Brilho: {brilho}";
+        }
     }
 
 }

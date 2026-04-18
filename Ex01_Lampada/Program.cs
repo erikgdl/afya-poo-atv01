@@ -11,7 +11,7 @@ namespace Ex01_Lampada
             lampada.alternar();
             lampada.ajustarBrilho(55);
 
-            Console.WriteLine($"A lâmpada {lampada.marca} tecnologia {lampada.tecnologia} está ligada? {lampada.estado} e no volume {lampada.brilho}");
+            Console.WriteLine(lampada);
 
 
         }
